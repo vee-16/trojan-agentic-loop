@@ -1,0 +1,5 @@
+datasets
+pyarrow
+google-adk
+litellm==1.108.0
+mcp
