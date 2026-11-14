@@ -22,6 +22,9 @@ case "$TASK" in
         python src/attack/queries/generate_usage_queries.py
         ;;
     skills)
+        python src/attack/skills/generate_adversarial_skills_metadata.py
+        ;;
+    documents)
         python src/attack/skills/generate_adversarial_skills.py
         ;;
     retrieval)

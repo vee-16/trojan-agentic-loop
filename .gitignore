@@ -25,3 +25,4 @@ venv/
 ./run_experiment.sh inject llama
 *.npy
 *.faiss
+/results/adversarial_skills/generated

@@ -77,7 +77,8 @@ Generates retrieval and usage queries using GPT-4o-mini.
 **Generate adversarial skills**
 
 ```bash
-./run_experiment.sh skills
+./run_experiment.sh skills      # Generate adversarial metadata
+./run_experiment.sh documents   # Generate adversarial SKILL.md files
 ```
 
 Generates adversarial skill candidates from training queries using GPT-4o-mini.
