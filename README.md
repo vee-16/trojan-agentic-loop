@@ -105,7 +105,3 @@ Generates embeddings using OpenAI (text-embedding-3-small), Nomic (nomic-embed-t
 ./run_experiment.sh inject gemma
 ./run_experiment.sh inject llama
 ```
-
-Supported agent models: `gemma` (Gemma 4 E2B) and `llama` (Llama 3.1 8B).
-
-Retrieval experiments use three embedding models independently of the selected agent model.
