@@ -1,3 +1,5 @@
+"""Download and index SkillsBench v1.1 skills."""
+
 import json
 import subprocess
 from pathlib import Path
@@ -11,28 +13,58 @@ CATALOG_PATH = ROOT / "data/processed/skills_catalog.json"
 REPO_URL = "https://github.com/benchflow-ai/skillsbench.git"
 VERSION = "1.1"
 
+SPARSE_PATHS = [
+    "/tasks/",
+    "/tasks-extra/",
+    "/registry.json",
+]
+
 
 def sync_skills():
-    """Clone SkillsBench if it is not already downloaded."""
-    if (RAW_DIR / "registry.json").is_file():
-        return
+    """Keep only SkillsBench task directories and registry.json."""
 
-    if RAW_DIR.exists():
-        raise FileNotFoundError(
-            f"SkillsBench exists but registry.json is missing: {RAW_DIR}"
+    if not (RAW_DIR / ".git").exists():
+        if (RAW_DIR / "registry.json").is_file():
+            return
+
+        if RAW_DIR.exists():
+            raise FileNotFoundError(
+                f"Incomplete SkillsBench directory: {RAW_DIR}"
+            )
+
+        RAW_DIR.parent.mkdir(parents=True, exist_ok=True)
+
+        subprocess.run(
+            [
+                "git", "clone",
+                "--depth", "1",
+                "--branch", f"v{VERSION}",
+                "--filter=blob:none",
+                "--sparse",
+                REPO_URL,
+                str(RAW_DIR),
+            ],
+            check=True,
         )
 
-    RAW_DIR.parent.mkdir(parents=True, exist_ok=True)
-
+    # Apply root-anchored patterns to new and existing clones.
     subprocess.run(
-        ["git", "clone", "--branch", "v1.1", "--depth", "1",
-         REPO_URL, str(RAW_DIR)],
+        [
+            "git", "-C", str(RAW_DIR),
+            "sparse-checkout", "set",
+            "--no-cone",
+            *SPARSE_PATHS,
+        ],
         check=True,
     )
+
+    if not (RAW_DIR / "registry.json").is_file():
+        raise FileNotFoundError("SkillsBench registry.json not found")
 
 
 def build_catalog():
     """Index skills belonging to registered SkillsBench v1.1 tasks."""
+
     sync_skills()
 
     registry = json.loads(
@@ -41,7 +73,8 @@ def build_catalog():
 
     release = next(
         (
-            entry for entry in registry
+            entry
+            for entry in registry
             if entry["name"] == "skillsbench"
             and entry["version"] == VERSION
         ),
@@ -49,7 +82,7 @@ def build_catalog():
     )
 
     if release is None:
-        raise ValueError(f"SkillsBench v{VERSION} not found in registry")
+        raise ValueError(f"SkillsBench v{VERSION} not found")
 
     catalog = []
 
@@ -92,7 +125,8 @@ def build_catalog():
 
 def load_skills():
     """Load the processed skill catalog."""
-    if not CATALOG_PATH.exists():
+
+    if not CATALOG_PATH.is_file():
         return build_catalog()
 
     return json.loads(
@@ -102,11 +136,10 @@ def load_skills():
 
 def get_skill(skill_id: str):
     """Read the original SKILL.md using its catalog ID."""
+
     catalog = load_skills()
 
-    valid_ids = {skill["id"] for skill in catalog}
-
-    if skill_id not in valid_ids:
+    if skill_id not in {skill["id"] for skill in catalog}:
         raise ValueError(f"Unknown skill: {skill_id}")
 
     path = (RAW_DIR / skill_id).resolve()
