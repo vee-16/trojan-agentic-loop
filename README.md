@@ -6,7 +6,7 @@ Investigating adversarial attacks on LLM agent tool-calling.
 **Clone the repository**
 
 ```bash
-git clone https://github.com/<username>/trojan-agentic-loop.git
+git clone https://github.com/vee-16/trojan-agentic-loop.git
 cd trojan-agentic-loop
 ```
 
@@ -54,21 +54,21 @@ This downloads SkillsBench v1.1 and generates the skill catalog.
 **Make the script executable**
 
 ```bash
-chmod +x run_experiments.sh
+chmod +x run_experiment.sh
 ```
 
 **Run the agent**
 
 ```bash
-./run_experiments.sh agent gemma
-./run_experiments.sh agent llama
+./run_experiment.sh agent gemma
+./run_experiment.sh agent llama
 ```
 
 **Run injection experiments**
 
 ```bash
-./run_experiments.sh inject gemma
-./run_experiments.sh inject llama
+./run_experiment.sh inject gemma
+./run_experiment.sh inject llama
 ```
 
 Supported models:
