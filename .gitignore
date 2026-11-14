@@ -18,3 +18,8 @@ venv/
 # Google ADK
 .adk/
 **/.adk/
+
+# Data & Results
+/data/raw/skillsbench/
+./run_experiment.sh inject gemma
+./run_experiment.sh inject llama
