@@ -23,3 +23,5 @@ venv/
 /data/raw/skillsbench/
 ./run_experiment.sh inject gemma
 ./run_experiment.sh inject llama
+*.npy
+*.faiss

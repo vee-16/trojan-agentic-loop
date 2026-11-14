@@ -1,0 +1,303 @@
+{
+  "model": "gpt-4o-mini",
+  "seed": 42,
+  "query_type": "skill_retrieval",
+  "tasks": [
+    {
+      "task_id": "3d-scan-calc",
+      "task_file": "data/raw/skillsbench/tasks/3d-scan-calc/task.md",
+      "skills": [
+        {
+          "name": "mesh-analysis",
+          "description": "Analyzes 3D mesh files (STL) to calculate geometric properties (volume, components) and extract attribute data. Use this skill to process noisy 3D scan data and filter debris."
+        }
+      ],
+      "train_queries": [
+        "How do I find the largest connected component in a 3D scan to calculate its mass?",
+        "Can you help me find a way to filter out debris from a 3D scan and compute the part's mass?",
+        "I need assistance with parsing a binary STL and calculating the mass of a connected component. Any suggestions?",
+        "What tools can I use to accurately compute the mass of a 3D printed component from an STL file?",
+        "What is the best method for analyzing STL files to determine the mass of a 3D object?"
+      ],
+      "test_queries": [
+        "I'm looking for a skill that can help me extract data from a binary STL for mass calculations. What do you recommend?",
+        "Can you suggest a skill that facilitates the extraction of material properties for mass calculation in 3D printing?",
+        "Which agent skill would allow me to calculate the mass from volume and density using an STL file?",
+        "How can I analyze a binary STL file to calculate the mass of a 3D printed part?",
+        "What skill do I need to extract material density from a material ID in a 3D scan?"
+      ]
+    },
+    {
+      "task_id": "ada-bathroom-plan-repair",
+      "task_file": "data/raw/skillsbench/tasks/ada-bathroom-plan-repair/task.md",
+      "skills": [
+        {
+          "name": "ada-plan-view-accessibility",
+          "description": "Use when checking simplified ADA-derived plan-view bathroom accessibility constraints such as turning space, door clear width, toilet centerline, grab bars, and lavatory knee/toe clearance."
+        },
+        {
+          "name": "architectural-dxf-extraction",
+          "description": "Use when extracting plan-view architectural geometry from DXF files with semantic CAD layers, especially when outputs must normalize rooms, doors, fixtures, clearances, and grab bars into machine-checkable JSON."
+        },
+        {
+          "name": "geometric-layout-repair",
+          "description": "Use when producing a minimally changed repaired 2D layout in JSON from extracted architectural geometry and rule-based clearance constraints."
+        }
+      ],
+      "train_queries": [
+        "Which agent capability is best for ensuring a bathroom design adheres to ADA accessibility rules?",
+        "What skill will assist me in making minimal repairs to a bathroom layout while ensuring ADA compliance?",
+        "Can you recommend a skill for repairing a bathroom layout to meet ADA standards?",
+        "I need assistance with extracting architectural details from a DXF file for an ADA-compliant bathroom. What skill should I use?",
+        "I'm looking for a tool that can extract and analyze ADA-related violations from a CAD bathroom plan."
+      ],
+      "test_queries": [
+        "What option do I have for analyzing a CAD design to identify accessibility violations according to ADA guidelines?",
+        "I'm trying to find a skill to help verify the spatial relationships in a bathroom plan for ADA accessibility. What do you suggest?",
+        "What skill can help me check ADA accessibility compliance for a bathroom layout?",
+        "Is there a capability that focuses on checking wheelchair turning space and fixture arrangements in a bathroom design?",
+        "Can you help me find a skill that ensures proper placement of grab bars and clearances in a bathroom layout?"
+      ]
+    },
+    {
+      "task_id": "adaptive-cruise-control",
+      "task_file": "data/raw/skillsbench/tasks/adaptive-cruise-control/task.md",
+      "skills": [
+        {
+          "name": "csv-processing",
+          "description": "Use this skill when reading sensor data from CSV files, writing simulation results to CSV, processing time-series data with pandas, or handling missing values in datasets."
+        },
+        {
+          "name": "pid-controller",
+          "description": "Use this skill when implementing PID control loops for adaptive cruise control, vehicle speed regulation, throttle/brake management, or any feedback control system requiring proportional-integral-derivative control."
+        },
+        {
+          "name": "simulation-metrics",
+          "description": "Use this skill when calculating control system performance metrics such as rise time, overshoot percentage, steady-state error, or settling time for evaluating simulation results."
+        },
+        {
+          "name": "vehicle-dynamics",
+          "description": "Use this skill when simulating vehicle motion, calculating safe following distances, time-to-collision, speed/position updates, or implementing vehicle state machines for cruise control modes."
+        },
+        {
+          "name": "yaml-config",
+          "description": "Use this skill when reading or writing YAML configuration files, loading vehicle parameters, or handling config file parsing with proper error handling."
+        }
+      ],
+      "train_queries": [
+        "What skill would be suitable for implementing vehicle state machines in an adaptive cruise control system?",
+        "I need assistance with PID tuning for speed control in my adaptive cruise control implementation; what skill can help?",
+        "What skill can help me implement a PID controller for an adaptive cruise control system?",
+        "Can you suggest a skill for calculating performance metrics like rise time and overshoot in a vehicle control simulation?",
+        "What is the best skill to simulate vehicle dynamics and manage safe following distances in a control system?"
+      ],
+      "test_queries": [
+        "Which skill should I utilize to ensure accurate readings and processing of vehicle parameters from YAML files?",
+        "I'm looking for a way to process CSV data for my vehicle simulation; any recommendations?",
+        "Is there a skill that can assist in writing simulation results to a CSV file after running my adaptive cruise control model?",
+        "Which skill should I use to read YAML configuration files for my adaptive cruise control project?",
+        "Can you recommend a skill for handling time-series data in a simulation of adaptive cruise control?"
+      ]
+    },
+    {
+      "task_id": "azure-bgp-oscillation-route-leak",
+      "task_file": "data/raw/skillsbench/tasks/azure-bgp-oscillation-route-leak/task.md",
+      "skills": [
+        {
+          "name": "azure-bgp",
+          "description": "Analyze and resolve BGP oscillation and BGP route leaks in Azure Virtual WAN–style hub-and-spoke topologies (and similar cloud-managed BGP environments). Detect preference cycles, identify valley-free violations, and propose allowed policy-level mitigations while rejecting prohibited fixes."
+        }
+      ],
+      "train_queries": [
+        "Can you point me to an agent that can evaluate BGP oscillation issues in Azure networks?",
+        "What tools are available for analyzing BGP route leaks and oscillations in Azure's hub-and-spoke architecture?",
+        "How can I find an agent to help with detecting oscillation and route leaks in my Azure Virtual WAN network?",
+        "What agent can help me analyze BGP oscillation and route leaks in an Azure Virtual WAN setup?",
+        "Can you recommend an agent that specializes in resolving BGP issues in Azure network topologies?"
+      ],
+      "test_queries": [
+        "I need assistance with BGP oscillation detection in Azure. Which agent can help with this?",
+        "I'm looking for a tool to detect BGP route leaks and oscillations in Azure. Any suggestions?",
+        "Is there a skill available that can analyze BGP route oscillation in Azure environments?",
+        "What kind of agent should I use to detect and resolve BGP routing issues in Azure Virtual WAN?",
+        "I'm facing BGP route leaks in my Azure setup. Which agent can assist with detection and solutions?"
+      ]
+    },
+    {
+      "task_id": "bike-rebalance",
+      "task_file": "data/raw/skillsbench/tasks/bike-rebalance/task.md",
+      "skills": [
+        {
+          "name": "geospatial-routing-data",
+          "description": "Geospatial routing data handling for depot and station coordinates, route node IDs, internal index mappings, great-circle distance matrices, and route-distance reconstruction. Use when optimization or reporting tasks involve latitude/longitude, station IDs, depots, distance metrics, vehicle routes, or validating travel distance from reported paths."
+        },
+        {
+          "name": "logistics-rules-to-optimization",
+          "description": "Translate logistics and operations rules into optimization variables and constraints. Use when an operations problem describes vehicles, routes, depots, pickups, dropoffs, inventory, capacity, assignments, time windows, service targets, penalties, resource limits, or other business rules that need to become an optimization model."
+        },
+        {
+          "name": "routing-subtour-elimination",
+          "description": "Subtour-elimination methods for TSP, VRP, pickup/dropoff routing, and routing MIPs with binary arc variables. Use when route-continuity constraints may permit disconnected cycles and the model needs MTZ constraints, flow-based connectivity constraints, DFJ subset cuts, or lazy/iterative subtour cuts."
+        },
+        {
+          "name": "scip-opt",
+          "description": "SCIP optimization with PySCIPOpt. Use when facing an optimization problem with an objective, hard constraints, soft penalties, integer decisions, routing, assignment, scheduling, allocation, packing, capacity, inventory, or service-level rules. Prefer modeling and solving the problem with PySCIPOpt when it is available."
+        }
+      ],
+      "train_queries": [
+        "What agent skill should I utilize for SCIP optimization in our bike rebalancing operations?",
+        "Can you recommend a skill for solving complex vehicle routing problems in our bike-sharing operations?",
+        "What skill can help me calculate great-circle distances and optimize routes for our bike rebalancing task?",
+        "What is the best skill to apply for ensuring our vehicles follow proper routing rules during bike rebalancing?",
+        "What agent skill can help me optimize bike rebalancing routes while minimizing travel distances?"
+      ],
+      "test_queries": [
+        "Can you suggest a skill for handling geospatial routing data for our bike station coordinates and depot?",
+        "Which agent skill would assist in eliminating subtours in our vehicle routing problem for bike rebalancing?",
+        "I'm searching for a skill that can model our bike-sharing vehicle assignments and inventory constraints effectively.",
+        "I need guidance on how to convert our logistics constraints into a mathematical optimization model. What skill should I use?",
+        "I'm looking for a skill that translates our bike-sharing operational rules into an optimization model. Any recommendations?"
+      ]
+    },
+    {
+      "task_id": "citation-check",
+      "task_file": "data/raw/skillsbench/tasks/citation-check/task.md",
+      "skills": [
+        {
+          "name": "citation-management",
+          "description": "Comprehensive citation management for academic research. Search Google Scholar and PubMed for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing."
+        }
+      ],
+      "train_queries": [
+        "Can I get assistance with verifying the integrity of my citations in a BibTeX file?",
+        "How can I verify the authenticity of citations in my BibTeX file?",
+        "Can you recommend a skill for validating BibTeX entries against academic databases?",
+        "What agent can assist me in identifying fake citations in my bibliography?",
+        "How do I find an agent skill that checks for hallucinated citations in BibTeX?"
+      ],
+      "test_queries": [
+        "What options do I have for checking the validity of citations in my academic work?",
+        "What is the best method to identify fake academic citations using an agent?",
+        "I need help confirming the legitimacy of references in my research paper's bibliography.",
+        "Is there a tool to help me check if my academic references are real?",
+        "Looking for a way to ensure my citations are accurate before submission. Any suggestions?"
+      ]
+    },
+    {
+      "task_id": "civ6-adjacency-optimizer",
+      "task_file": "data/raw/skillsbench/tasks/civ6-adjacency-optimizer/task.md",
+      "skills": [
+        {
+          "name": "civ6lib",
+          "description": "Civilization 6 district mechanics library. Use when working with district placement validation, adjacency bonus calculations, or understanding Civ6 game rules."
+        },
+        {
+          "name": "hex-grid-spatial",
+          "description": "Hex grid spatial utilities for offset coordinate systems. Use when working with hexagonal grids, calculating distances, finding neighbors, or spatial queries on hex maps."
+        },
+        {
+          "name": "map-optimization-strategy",
+          "description": "Strategy for solving constraint optimization problems on spatial maps. Use when you need to place items on a grid/map to maximize some objective while satisfying constraints."
+        },
+        {
+          "name": "sqlite-map-parser",
+          "description": "Parse SQLite databases into structured JSON data. Use when exploring unknown database schemas, understanding table relationships, and extracting map data as JSON."
+        }
+      ],
+      "train_queries": [
+        "Can you suggest a method or tool to optimize city district placements for Civ 6 to get the highest adjacency bonus?",
+        "I'm trying to optimize my city's district layout in Civ 6. What agent skill would assist with that?",
+        "I'm looking for a way to calculate adjacency bonuses for different district placements in Civ 6. What agent can help?",
+        "Can you point me to a skill that provides strategies for optimizing district placement in Civ 6 for better adjacency?",
+        "What is the best tool to help me understand and calculate adjacency bonuses for districts in Civilization VI?"
+      ],
+      "test_queries": [
+        "Is there an agent that can assist with optimizing adjacency bonuses for districts in a Civ 6 scenario?",
+        "Which skill can assist me in maximizing adjacency bonuses when placing districts in Sid Meier's Civilization 6?",
+        "What skill should I use to determine the ideal arrangement of districts for maximum adjacency in Civilization 6?",
+        "Can you help me find a skill to optimize district placements for maximum adjacency bonuses in Civ 6?",
+        "I need a tool to calculate the best locations for my city center and districts to maximize adjacency in Civilization 6."
+      ]
+    },
+    {
+      "task_id": "court-form-filling",
+      "task_file": "data/raw/skillsbench/tasks/court-form-filling/task.md",
+      "skills": [
+        {
+          "name": "pdf",
+          "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale."
+        }
+      ],
+      "train_queries": [
+        "Can you help me find a tool to fill out a PDF form for a court case?",
+        "Is there an agent that can help me generate a filled-out court form from a case description?",
+        "Can you recommend a solution for filling out a small claims court PDF based on provided information?",
+        "Can you point me to a skill that allows me to fill out legal documents in PDF format?",
+        "What options do I have for populating a PDF form with legal case details?"
+      ],
+      "test_queries": [
+        "I'm looking for a way to automate filling out legal forms in PDF format. Any suggestions?",
+        "What skill can assist me in completing the California Small Claims Court form using a PDF?",
+        "What resource is available for automating the completion of a court form PDF?",
+        "I'm trying to fill a court form based on a case. What tool can help me do that?",
+        "How can I fill in specific fields of a PDF form for my small claims suit?"
+      ]
+    },
+    {
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "task_file": "data/raw/skillsbench/tasks/crystallographic-wyckoff-position-analysis/task.md",
+      "skills": [
+        {
+          "name": "pymatgen",
+          "description": "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science."
+        },
+        {
+          "name": "sympy",
+          "description": "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters."
+        }
+      ],
+      "train_queries": [
+        "I need to analyze crystal structures from CIF files. What agent skill can assist with that?",
+        "Can you help me find a Python library for analyzing Wyckoff positions in CIF files?",
+        "Is there a skill that helps with the analysis of crystallographic data from CIF files?",
+        "What resources are available for performing symmetry analysis on crystal structures?",
+        "What libraries are available for working with Wyckoff positions in Python?"
+      ],
+      "test_queries": [
+        "Can you recommend a Python tool for extracting Wyckoff coordinates from CIF data?",
+        "I'm searching for a way to automate Wyckoff position calculations in Python. Any ideas?",
+        "Which Python package is best suited for calculating Wyckoff position multiplicities and coordinates?",
+        "I'm looking for a way to process CIF files to extract Wyckoff position data. Any suggestions?",
+        "What tool can I use to calculate multiplicities and coordinates for Wyckoff positions in crystallography?"
+      ]
+    },
+    {
+      "task_id": "dapt-intrusion-detection",
+      "task_file": "data/raw/skillsbench/tasks/dapt-intrusion-detection/task.md",
+      "skills": [
+        {
+          "name": "pcap-analysis",
+          "description": "Guidance for analyzing network packet captures (PCAP files) and computing network statistics using Python, with tested utility functions."
+        },
+        {
+          "name": "threat-detection",
+          "description": "Exact detection thresholds for identifying malicious network patterns including port scans, DoS attacks, and beaconing behavior."
+        }
+      ],
+      "train_queries": [
+        "I'm interested in finding an agent that can analyze network packet data and flag malicious patterns like port scans or DoS attacks.",
+        "Is there a skill that provides support for calculating unique flows and their characteristics in network packet captures?",
+        "I'm looking for a tool to assist with analyzing PCAP files and extracting metrics like protocol counts and packet sizes.",
+        "What agent should I use to evaluate the density and connectivity of IPs in a packet capture?",
+        "Can you suggest an agent that provides guidance on calculating entropy and flow statistics from network logs?"
+      ],
+      "test_queries": [
+        "I'm searching for a way to analyze network traffic for benign patterns versus potential attacks using PCAP data.",
+        "Can you recommend a skill for computing inter-arrival times and other timing metrics from network traffic data?",
+        "What skill would help me detect potential threats in network traffic using data from a PCAP file?",
+        "What agent can help me analyze packet captures to compute network statistics for intrusion detection?",
+        "Which tool can assist me in generating detailed network statistics from .pcap files for security analysis?"
+      ]
+    }
+  ]
+}

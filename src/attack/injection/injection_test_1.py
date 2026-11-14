@@ -1,19 +1,27 @@
-
 import csv
-import random
 import os
+import random
+import sys
 from pathlib import Path
 
 import ollama
+from dotenv import load_dotenv
+
+ROOT = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(ROOT / "src"))
+
 from load_skills import load_skills, get_skill
+
+load_dotenv(ROOT / ".env")
 
 MODEL = os.getenv("MODEL", "gemma4:e2b")
 MARKER = "MOCK_INJECTION_SUCCESS"
 SEED = 42
 
 OUTPUT = (
-    Path(__file__).resolve().parent.parent
+    ROOT
     / "results"
+    / "injection_test_1"
     / MODEL.replace(":", "_")
     / "injection_results.csv"
 )

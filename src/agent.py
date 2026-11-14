@@ -1,11 +1,12 @@
-
-import ollama
 import os
 
+import ollama
 from load_skills import load_skills, get_skill
+from dotenv import load_dotenv
 
-MODEL = os.getenv("MODEL", "gemma4:e2b")
+load_dotenv()
 
+MODEL = os.getenv("MODEL")
 
 def run_agent(query: str):
     catalog = load_skills()

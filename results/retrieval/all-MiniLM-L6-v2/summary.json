@@ -1,0 +1,49 @@
+{
+  "embedding_model": "all-MiniLM-L6-v2",
+  "train_queries": 50,
+  "test_queries": 50,
+  "skill_counts": [
+    {
+      "skill_count": 1,
+      "selected": 1,
+      "training_hijacked": 5,
+      "test_hijacked": 5,
+      "test_rhr_at_1": 0.1
+    },
+    {
+      "skill_count": 3,
+      "selected": 3,
+      "training_hijacked": 15,
+      "test_hijacked": 12,
+      "test_rhr_at_1": 0.24
+    },
+    {
+      "skill_count": 5,
+      "selected": 5,
+      "training_hijacked": 23,
+      "test_hijacked": 19,
+      "test_rhr_at_1": 0.38
+    },
+    {
+      "skill_count": 10,
+      "selected": 10,
+      "training_hijacked": 39,
+      "test_hijacked": 29,
+      "test_rhr_at_1": 0.58
+    },
+    {
+      "skill_count": 15,
+      "selected": 15,
+      "training_hijacked": 45,
+      "test_hijacked": 29,
+      "test_rhr_at_1": 0.58
+    },
+    {
+      "skill_count": 30,
+      "selected": 19,
+      "training_hijacked": 49,
+      "test_hijacked": 34,
+      "test_rhr_at_1": 0.68
+    }
+  ]
+}

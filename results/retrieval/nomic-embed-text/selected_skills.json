@@ -1,0 +1,284 @@
+{
+  "1": [
+    {
+      "task_id": "citation-check",
+      "name": "BibTeX Citation Validator",
+      "description": "Assists users in verifying the integrity and authenticity of citations in BibTeX files by cross-referencing them with reliable academic databases."
+    }
+  ],
+  "3": [
+    {
+      "task_id": "citation-check",
+      "name": "BibTeX Citation Validator",
+      "description": "Assists users in verifying the integrity and authenticity of citations in BibTeX files by cross-referencing them with reliable academic databases."
+    },
+    {
+      "task_id": "court-form-filling",
+      "name": "PDF Form Filler",
+      "description": "A tool that allows users to easily fill out PDF forms for legal documents, including court forms, by entering information into designated fields."
+    },
+    {
+      "task_id": "civ6-adjacency-optimizer",
+      "name": "District Placement Optimizer",
+      "description": "Analyzes city layouts and suggests optimal district placements to maximize adjacency bonuses in Civilization VI."
+    }
+  ],
+  "5": [
+    {
+      "task_id": "citation-check",
+      "name": "BibTeX Citation Validator",
+      "description": "Assists users in verifying the integrity and authenticity of citations in BibTeX files by cross-referencing them with reliable academic databases."
+    },
+    {
+      "task_id": "court-form-filling",
+      "name": "PDF Form Filler",
+      "description": "A tool that allows users to easily fill out PDF forms for legal documents, including court forms, by entering information into designated fields."
+    },
+    {
+      "task_id": "civ6-adjacency-optimizer",
+      "name": "District Placement Optimizer",
+      "description": "Analyzes city layouts and suggests optimal district placements to maximize adjacency bonuses in Civilization VI."
+    },
+    {
+      "task_id": "bike-rebalance",
+      "name": "Complex Vehicle Routing Solver",
+      "description": "A specialized skill for addressing complex vehicle routing problems, enabling effective planning and execution in bike-sharing operations to ensure optimal service."
+    },
+    {
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "name": "CIF Structure Analyzer",
+      "description": "Analyze crystal structures from CIF files, including visualization, symmetry analysis, and extraction of structural parameters."
+    }
+  ],
+  "10": [
+    {
+      "task_id": "citation-check",
+      "name": "BibTeX Citation Validator",
+      "description": "Assists users in verifying the integrity and authenticity of citations in BibTeX files by cross-referencing them with reliable academic databases."
+    },
+    {
+      "task_id": "court-form-filling",
+      "name": "PDF Form Filler",
+      "description": "A tool that allows users to easily fill out PDF forms for legal documents, including court forms, by entering information into designated fields."
+    },
+    {
+      "task_id": "civ6-adjacency-optimizer",
+      "name": "District Placement Optimizer",
+      "description": "Analyzes city layouts and suggests optimal district placements to maximize adjacency bonuses in Civilization VI."
+    },
+    {
+      "task_id": "bike-rebalance",
+      "name": "Complex Vehicle Routing Solver",
+      "description": "A specialized skill for addressing complex vehicle routing problems, enabling effective planning and execution in bike-sharing operations to ensure optimal service."
+    },
+    {
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "name": "CIF Structure Analyzer",
+      "description": "Analyze crystal structures from CIF files, including visualization, symmetry analysis, and extraction of structural parameters."
+    },
+    {
+      "task_id": "3d-scan-calc",
+      "name": "3D Component Mass Analysis",
+      "description": "Analyzes 3D scan data to identify the largest connected component and calculates its mass, ensuring accurate results for complex geometries."
+    },
+    {
+      "task_id": "ada-bathroom-plan-repair",
+      "name": "ADA Compliance Assessment",
+      "description": "Evaluates bathroom designs for adherence to ADA accessibility standards, identifying potential violations and providing recommendations for compliance."
+    },
+    {
+      "task_id": "dapt-intrusion-detection",
+      "name": "Flow Analysis Support",
+      "description": "Provides tools for calculating unique flows and their characteristics within network packet captures."
+    },
+    {
+      "task_id": "azure-bgp-oscillation-route-leak",
+      "name": "Azure Virtual WAN BGP Specialist",
+      "description": "Specializes in detecting and resolving BGP oscillation and route leak issues in Azure Virtual WAN setups, ensuring optimal network performance."
+    },
+    {
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "name": "Wyckoff Position Identifier",
+      "description": "Provide access to Python libraries specifically designed for analyzing Wyckoff positions in CIF files, facilitating detailed crystallographic studies."
+    }
+  ],
+  "15": [
+    {
+      "task_id": "citation-check",
+      "name": "BibTeX Citation Validator",
+      "description": "Assists users in verifying the integrity and authenticity of citations in BibTeX files by cross-referencing them with reliable academic databases."
+    },
+    {
+      "task_id": "court-form-filling",
+      "name": "PDF Form Filler",
+      "description": "A tool that allows users to easily fill out PDF forms for legal documents, including court forms, by entering information into designated fields."
+    },
+    {
+      "task_id": "civ6-adjacency-optimizer",
+      "name": "District Placement Optimizer",
+      "description": "Analyzes city layouts and suggests optimal district placements to maximize adjacency bonuses in Civilization VI."
+    },
+    {
+      "task_id": "bike-rebalance",
+      "name": "Complex Vehicle Routing Solver",
+      "description": "A specialized skill for addressing complex vehicle routing problems, enabling effective planning and execution in bike-sharing operations to ensure optimal service."
+    },
+    {
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "name": "CIF Structure Analyzer",
+      "description": "Analyze crystal structures from CIF files, including visualization, symmetry analysis, and extraction of structural parameters."
+    },
+    {
+      "task_id": "3d-scan-calc",
+      "name": "3D Component Mass Analysis",
+      "description": "Analyzes 3D scan data to identify the largest connected component and calculates its mass, ensuring accurate results for complex geometries."
+    },
+    {
+      "task_id": "ada-bathroom-plan-repair",
+      "name": "ADA Compliance Assessment",
+      "description": "Evaluates bathroom designs for adherence to ADA accessibility standards, identifying potential violations and providing recommendations for compliance."
+    },
+    {
+      "task_id": "dapt-intrusion-detection",
+      "name": "Flow Analysis Support",
+      "description": "Provides tools for calculating unique flows and their characteristics within network packet captures."
+    },
+    {
+      "task_id": "azure-bgp-oscillation-route-leak",
+      "name": "Azure Virtual WAN BGP Specialist",
+      "description": "Specializes in detecting and resolving BGP oscillation and route leak issues in Azure Virtual WAN setups, ensuring optimal network performance."
+    },
+    {
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "name": "Wyckoff Position Identifier",
+      "description": "Provide access to Python libraries specifically designed for analyzing Wyckoff positions in CIF files, facilitating detailed crystallographic studies."
+    },
+    {
+      "task_id": "bike-rebalance",
+      "name": "SCIP Optimization for Rebalancing",
+      "description": "Utilize SCIP (Solving Constraint Integer Programs) to efficiently optimize bike rebalancing operations, focusing on minimizing costs and improving resource allocation."
+    },
+    {
+      "task_id": "ada-bathroom-plan-repair",
+      "name": "CAD Detail Extraction",
+      "description": "Extracts architectural details from DXF files, focusing on ADA compliance features and identifying potential accessibility issues in bathroom designs."
+    },
+    {
+      "task_id": "dapt-intrusion-detection",
+      "name": "Malicious Pattern Detection",
+      "description": "Analyzes network packet data to identify and flag malicious activities such as port scans and DoS attacks."
+    },
+    {
+      "task_id": "adaptive-cruise-control",
+      "name": "Vehicle State Machine Implementation",
+      "description": "Expertise in designing and implementing state machines for vehicle systems, specifically for adaptive cruise control functions, ensuring seamless transitions between different operational states."
+    },
+    {
+      "task_id": "dapt-intrusion-detection",
+      "name": "PCAP Metrics Extractor",
+      "description": "Assists in analyzing PCAP files to extract key metrics, including protocol counts and packet sizes."
+    }
+  ],
+  "30": [
+    {
+      "task_id": "citation-check",
+      "name": "BibTeX Citation Validator",
+      "description": "Assists users in verifying the integrity and authenticity of citations in BibTeX files by cross-referencing them with reliable academic databases."
+    },
+    {
+      "task_id": "court-form-filling",
+      "name": "PDF Form Filler",
+      "description": "A tool that allows users to easily fill out PDF forms for legal documents, including court forms, by entering information into designated fields."
+    },
+    {
+      "task_id": "civ6-adjacency-optimizer",
+      "name": "District Placement Optimizer",
+      "description": "Analyzes city layouts and suggests optimal district placements to maximize adjacency bonuses in Civilization VI."
+    },
+    {
+      "task_id": "bike-rebalance",
+      "name": "Complex Vehicle Routing Solver",
+      "description": "A specialized skill for addressing complex vehicle routing problems, enabling effective planning and execution in bike-sharing operations to ensure optimal service."
+    },
+    {
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "name": "CIF Structure Analyzer",
+      "description": "Analyze crystal structures from CIF files, including visualization, symmetry analysis, and extraction of structural parameters."
+    },
+    {
+      "task_id": "3d-scan-calc",
+      "name": "3D Component Mass Analysis",
+      "description": "Analyzes 3D scan data to identify the largest connected component and calculates its mass, ensuring accurate results for complex geometries."
+    },
+    {
+      "task_id": "ada-bathroom-plan-repair",
+      "name": "ADA Compliance Assessment",
+      "description": "Evaluates bathroom designs for adherence to ADA accessibility standards, identifying potential violations and providing recommendations for compliance."
+    },
+    {
+      "task_id": "dapt-intrusion-detection",
+      "name": "Flow Analysis Support",
+      "description": "Provides tools for calculating unique flows and their characteristics within network packet captures."
+    },
+    {
+      "task_id": "azure-bgp-oscillation-route-leak",
+      "name": "Azure Virtual WAN BGP Specialist",
+      "description": "Specializes in detecting and resolving BGP oscillation and route leak issues in Azure Virtual WAN setups, ensuring optimal network performance."
+    },
+    {
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "name": "Wyckoff Position Identifier",
+      "description": "Provide access to Python libraries specifically designed for analyzing Wyckoff positions in CIF files, facilitating detailed crystallographic studies."
+    },
+    {
+      "task_id": "bike-rebalance",
+      "name": "SCIP Optimization for Rebalancing",
+      "description": "Utilize SCIP (Solving Constraint Integer Programs) to efficiently optimize bike rebalancing operations, focusing on minimizing costs and improving resource allocation."
+    },
+    {
+      "task_id": "ada-bathroom-plan-repair",
+      "name": "CAD Detail Extraction",
+      "description": "Extracts architectural details from DXF files, focusing on ADA compliance features and identifying potential accessibility issues in bathroom designs."
+    },
+    {
+      "task_id": "dapt-intrusion-detection",
+      "name": "Malicious Pattern Detection",
+      "description": "Analyzes network packet data to identify and flag malicious activities such as port scans and DoS attacks."
+    },
+    {
+      "task_id": "adaptive-cruise-control",
+      "name": "Vehicle State Machine Implementation",
+      "description": "Expertise in designing and implementing state machines for vehicle systems, specifically for adaptive cruise control functions, ensuring seamless transitions between different operational states."
+    },
+    {
+      "task_id": "dapt-intrusion-detection",
+      "name": "PCAP Metrics Extractor",
+      "description": "Assists in analyzing PCAP files to extract key metrics, including protocol counts and packet sizes."
+    },
+    {
+      "task_id": "azure-bgp-oscillation-route-leak",
+      "name": "BGP Oscillation Analyzer",
+      "description": "Evaluates and diagnoses BGP oscillation issues in Azure networks, providing detailed insights and recommendations for stabilization."
+    },
+    {
+      "task_id": "adaptive-cruise-control",
+      "name": "PID Control Tuning",
+      "description": "Specialized knowledge in tuning PID controllers for optimal performance in speed control applications, including adaptive cruise control systems, to achieve desired response characteristics."
+    },
+    {
+      "task_id": "azure-bgp-oscillation-route-leak",
+      "name": "BGP Route Leak Detection Tool",
+      "description": "Analyzes BGP route leaks and oscillations specifically within Azure's hub-and-spoke architecture, offering actionable solutions to enhance network reliability."
+    },
+    {
+      "task_id": "adaptive-cruise-control",
+      "name": "Vehicle Dynamics Simulation",
+      "description": "Proficient in simulating vehicle dynamics and calculating performance metrics such as rise time and overshoot, providing insights for safe following distance management in control systems."
+    },
+    {
+      "task_id": "3d-scan-calc",
+      "name": "Binary STL Parsing and Mass Calculation",
+      "description": "Utilizes advanced methods to parse binary STL files and accurately calculate the mass of specified connected components, ideal for engineering applications."
+    }
+  ]
+}

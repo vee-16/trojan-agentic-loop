@@ -23,6 +23,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+**Configure environment variables**
+
+```bash
+cp .env.example .env
+```
+
+Add your `OPENAI_API_KEY` to `.env`.
+
 **Install and start Ollama**
 
 Install Ollama from https://ollama.com or using Homebrew:
@@ -39,6 +47,7 @@ In a separate terminal:
 ```bash
 ollama pull gemma4:e2b
 ollama pull llama3.1:8b
+ollama pull nomic-embed-text
 ```
 
 **Load SkillsBench skills**
@@ -47,7 +56,7 @@ ollama pull llama3.1:8b
 python src/load_skills.py
 ```
 
-This downloads SkillsBench v1.1 and generates the skill catalog.
+This downloads SkillsBench v1.1 and generates `data/processed/skills_catalog.json`.
 
 ## Running Experiments
 
@@ -56,6 +65,32 @@ This downloads SkillsBench v1.1 and generates the skill catalog.
 ```bash
 chmod +x run_experiment.sh
 ```
+
+**Generate queries**
+
+```bash
+./run_experiment.sh queries
+```
+
+Generates retrieval and usage queries using GPT-4o-mini.
+
+**Generate adversarial skills**
+
+```bash
+./run_experiment.sh skills
+```
+
+Generates adversarial skill candidates from training queries using GPT-4o-mini.
+
+
+**Run retrieval experiments**
+
+```bash
+./run_experiment.sh retrieval
+```
+
+Generates embeddings using OpenAI (text-embedding-3-small), Nomic (nomic-embed-text), and Sentence-BERT (all-MiniLM-L6-v2) and tests retrieval with adversarial skill candidates.
+
 
 **Run the agent**
 
@@ -71,10 +106,6 @@ chmod +x run_experiment.sh
 ./run_experiment.sh inject llama
 ```
 
-Supported models:
-- `gemma` — Gemma 4 E2B
-- `llama` — Llama 3.1 8B
+Supported agent models: `gemma` (Gemma 4 E2B) and `llama` (Llama 3.1 8B).
 
-The injection experiments test mock adversarial instructions placed at the end or at random positions within the first 10 SkillsBench skill documents. Two payload types are evaluated: evaluation notes and operating guidelines.
-
-Results are saved to `/results/{model}/injection_results.csv`.
+Retrieval experiments use three embedding models independently of the selected agent model.

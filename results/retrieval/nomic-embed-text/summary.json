@@ -1,0 +1,49 @@
+{
+  "embedding_model": "nomic-embed-text",
+  "train_queries": 50,
+  "test_queries": 50,
+  "skill_counts": [
+    {
+      "skill_count": 1,
+      "selected": 1,
+      "training_hijacked": 5,
+      "test_hijacked": 3,
+      "test_rhr_at_1": 0.06
+    },
+    {
+      "skill_count": 3,
+      "selected": 3,
+      "training_hijacked": 15,
+      "test_hijacked": 13,
+      "test_rhr_at_1": 0.26
+    },
+    {
+      "skill_count": 5,
+      "selected": 5,
+      "training_hijacked": 23,
+      "test_hijacked": 19,
+      "test_rhr_at_1": 0.38
+    },
+    {
+      "skill_count": 10,
+      "selected": 10,
+      "training_hijacked": 37,
+      "test_hijacked": 25,
+      "test_rhr_at_1": 0.5
+    },
+    {
+      "skill_count": 15,
+      "selected": 15,
+      "training_hijacked": 42,
+      "test_hijacked": 26,
+      "test_rhr_at_1": 0.52
+    },
+    {
+      "skill_count": 30,
+      "selected": 20,
+      "training_hijacked": 47,
+      "test_hijacked": 33,
+      "test_rhr_at_1": 0.66
+    }
+  ]
+}
