@@ -77,6 +77,4 @@ Supported models:
 
 The injection experiments test mock adversarial instructions placed at the end or at random positions within the first 10 SkillsBench skill documents. Two payload types are evaluated: evaluation notes and operating guidelines.
 
-Original SkillsBench files are not modified.
-
-Results are saved to `data/results/injection_results.csv`.
+Results are saved to `/results/{model}/injection_results.csv`.
