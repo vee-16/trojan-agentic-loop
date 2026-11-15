@@ -1,0 +1,489 @@
+{
+  "gen_model": "gpt-4o-mini",
+  "embed_model": "text-embedding-3-small",
+  "config": {
+    "num_skills_per_query": 3,
+    "query_sample_size": 10,
+    "num_skills_per_sample": 3,
+    "max_generation_iterations": 20,
+    "max_embedding_distance": 0.4,
+    "total_skill_budget": null
+  },
+  "num_target_queries": 50,
+  "num_generated_candidates": 60,
+  "num_selected_skills": 36,
+  "queries_fully_covered": 28,
+  "coverage_fraction": 0.56,
+  "selected_skills": [
+    {
+      "name": "optimization_tools",
+      "description": "This skill encompasses tools that can be used to optimize city district placements for Civ 6 to get the highest adjacency bonus and ensure our vehicles follow proper routing rules during bike rebalancing.",
+      "min_distance_to_queries": 0.237946
+    },
+    {
+      "name": "optimization_tools",
+      "description": "This skill can recommend a method or tool to optimize city district placements for Civ 6 to get the highest adjacency bonus and assist with optimizing bike rebalancing routes while minimizing travel distances.",
+      "min_distance_to_queries": 0.18758
+    },
+    {
+      "name": "optimization_tools",
+      "description": "Includes methods or tools to optimize city district placements for Civ 6 for the highest adjacency bonus and solve complex vehicle routing problems in bike-sharing operations.",
+      "min_distance_to_queries": 0.184968
+    },
+    {
+      "name": "pdf_form_tools",
+      "description": "Can you help me find a tool to fill out a PDF form for a court case?",
+      "min_distance_to_queries": 3e-06
+    },
+    {
+      "name": "pdf_tool_assistance",
+      "description": "I can help you find a tool to fill out a PDF form for a court case.",
+      "min_distance_to_queries": 0.074413
+    },
+    {
+      "name": "routing_optimization",
+      "description": "Utilize this skill to calculate great-circle distances, optimize routes for bike rebalancing tasks, and assist with SCIP optimization in bike rebalancing operations.",
+      "min_distance_to_queries": 0.119375
+    },
+    {
+      "name": "bgp_analysis",
+      "description": "Provides expertise in resolving BGP issues in Azure network topologies and analyzing BGP oscillation and route leaks in an Azure Virtual WAN setup.",
+      "min_distance_to_queries": 0.154339
+    },
+    {
+      "name": "network_packet_analysis",
+      "description": "This skill helps analyze network packet data, flagging malicious patterns like port scans or DoS attacks, calculating unique flows and their characteristics in network packet captures, and resolving BGP issues in Azure network topologies.",
+      "min_distance_to_queries": 0.346964
+    },
+    {
+      "name": "adaptive_design_analysis",
+      "description": "This skill provides guidance on ensuring a design adheres to ADA accessibility rules, implements PID controllers for adaptive cruise control systems, and analyzes CAD bathroom plans for ADA-related violations.",
+      "min_distance_to_queries": 0.353302
+    },
+    {
+      "name": "pdf_form_filling",
+      "description": "A skill that can recommend a solution for filling out a small claims court PDF based on provided information.",
+      "min_distance_to_queries": 0.134335
+    },
+    {
+      "name": "citation_verification",
+      "description": "A skill that can assist in identifying fake citations in my bibliography and verifying the integrity of my citations in a BibTeX file.",
+      "min_distance_to_queries": 0.245759
+    },
+    {
+      "name": "network_analysis",
+      "description": "This skill helps in detecting oscillation and route leaks in your Azure Virtual WAN network and evaluating BGP oscillation issues in Azure networks.",
+      "min_distance_to_queries": 0.268053
+    },
+    {
+      "name": "optimization_analysis",
+      "description": "I'm interested in finding an agent that can analyze network packet data and flag malicious patterns like port scans or DoS attacks.",
+      "min_distance_to_queries": 0.000233
+    },
+    {
+      "name": "compliance_assessment",
+      "description": "Use this skill to ensure a bathroom design adheres to ADA accessibility rules and assist in making minimal repairs to a bathroom layout.",
+      "min_distance_to_queries": 0.150884
+    },
+    {
+      "name": "3d_model_analysis",
+      "description": "This skill helps in analyzing STL files to determine the mass of a 3D object and accurately compute the mass of a 3D printed component from an STL file.",
+      "min_distance_to_queries": 0.190748
+    },
+    {
+      "name": "citation_validation",
+      "description": "This skill is useful for validating BibTeX entries against academic databases and checking for hallucinated citations in BibTeX.",
+      "min_distance_to_queries": 0.199273
+    },
+    {
+      "name": "citation_verification",
+      "description": "This skill helps you verify the authenticity of citations in your BibTeX file, ensuring accurate referencing.",
+      "min_distance_to_queries": 0.241649
+    },
+    {
+      "name": "compliance_assessment",
+      "description": "This skill ensures compliance by making minimal repairs to a bathroom layout while ensuring ADA compliance and checking for hallucinated citations in BibTeX.",
+      "min_distance_to_queries": 0.246988
+    },
+    {
+      "name": "simulation_support",
+      "description": "This skill offers support for simulations, including 'implementing vehicle state machines in an adaptive cruise control system', 'simulating vehicle dynamics', and 'managing safe following distances in a control system'.",
+      "min_distance_to_queries": 0.2477
+    },
+    {
+      "name": "data_analysis",
+      "description": "This skill provides methods for 'analyzing STL files' and 'analyzing crystal structures from CIF files' to determine properties like mass and integrity.",
+      "min_distance_to_queries": 0.303272
+    },
+    {
+      "name": "data_analysis",
+      "description": "This skill provides support for analyzing various types of data, such as extracting architectural details from a DXF file and calculating the mass of a 3D printed component from an STL file.",
+      "min_distance_to_queries": 0.311956
+    },
+    {
+      "name": "data_analysis",
+      "description": "This skill assists with analyzing crystal structures from CIF files and evaluating BGP oscillation issues in Azure networks.",
+      "min_distance_to_queries": 0.339395
+    },
+    {
+      "name": "library_recommendations",
+      "description": "I can recommend a Python library for analyzing Wyckoff positions in CIF files.",
+      "min_distance_to_queries": 0.050923
+    },
+    {
+      "name": "route_optimization",
+      "description": "This skill can help you calculate great-circle distances and optimize routes for our bike rebalancing task, as well as solve complex vehicle routing problems in our bike-sharing operations.",
+      "min_distance_to_queries": 0.098817
+    },
+    {
+      "name": "data_extraction",
+      "description": "Offers tools that help extract and analyze ADA-related violations from a CAD bathroom plan and generate a filled-out court form from a case description.",
+      "min_distance_to_queries": 0.162663
+    },
+    {
+      "name": "data_analysis",
+      "description": "This skill assists with extracting architectural details from a DXF file for an ADA-compliant bathroom and can also help in identifying fake citations in my bibliography.",
+      "min_distance_to_queries": 0.163178
+    },
+    {
+      "name": "network_security",
+      "description": "This skill supports 'calculating unique flows and their characteristics in network packet captures' and can 'analyze network packet data and flag malicious patterns'.",
+      "min_distance_to_queries": 0.191097
+    },
+    {
+      "name": "data_analysis",
+      "description": "A skill that provides tools for 'analyzing network packet data' and 'extracting metrics like protocol counts and packet sizes'.",
+      "min_distance_to_queries": 0.23404
+    },
+    {
+      "name": "simulation_and_evaluation",
+      "description": "This skill is useful for simulating vehicle dynamics and managing safe following distances in a control system, as well as evaluating the density and connectivity of IPs in a packet capture.",
+      "min_distance_to_queries": 0.291428
+    },
+    {
+      "name": "data_analysis_skills",
+      "description": "Can you suggest an agent that provides guidance on calculating entropy and flow statistics from network logs?",
+      "min_distance_to_queries": 1e-06
+    },
+    {
+      "name": "3d_processing",
+      "description": "This skill helps filter out debris from a 3D scan, compute the part's mass, and extract architectural details from a DXF file.",
+      "min_distance_to_queries": 0.261247
+    },
+    {
+      "name": "data_analysis",
+      "description": "A skill that can suggest a skill for calculating performance metrics like rise time and overshoot in a vehicle control simulation, as well as analyze network packet data and flag malicious patterns like port scans or DoS attacks.",
+      "min_distance_to_queries": 0.278201
+    },
+    {
+      "name": "network_management",
+      "description": "This skill is relevant for detecting oscillation and route leaks in an Azure Virtual WAN network and calculating unique flows and their characteristics in network packet captures.",
+      "min_distance_to_queries": 0.313503
+    },
+    {
+      "name": "verifying_authenticity",
+      "description": "This skill is designed for 'verifying the authenticity of citations' in documents such as a BibTeX file and can also assist in ensuring compliance with standards like 'ADA accessibility rules'.",
+      "min_distance_to_queries": 0.342628
+    },
+    {
+      "name": "optimization_tools",
+      "description": "This skill is essential for \"SCIP optimization in our bike rebalancing operations\" and for \"optimizing city district placements for Civ 6 to get the highest adjacency bonus\".",
+      "min_distance_to_queries": 0.345894
+    },
+    {
+      "name": "safety_assessment",
+      "description": "This skill is useful for 'managing safe following distances in a control system' and ensuring 'bathroom design adheres to ADA accessibility rules'.",
+      "min_distance_to_queries": 0.373248
+    }
+  ],
+  "selection_rounds": [
+    {
+      "skill": "adversarial_skill_1",
+      "candidate_name": "optimization_tools",
+      "newly_covered": 8,
+      "min_distance": 0.237946,
+      "queries_fully_covered": 0,
+      "pool_remaining": 59
+    },
+    {
+      "skill": "adversarial_skill_2",
+      "candidate_name": "optimization_tools",
+      "newly_covered": 7,
+      "min_distance": 0.18758,
+      "queries_fully_covered": 0,
+      "pool_remaining": 58
+    },
+    {
+      "skill": "adversarial_skill_3",
+      "candidate_name": "optimization_tools",
+      "newly_covered": 6,
+      "min_distance": 0.184968,
+      "queries_fully_covered": 5,
+      "pool_remaining": 57
+    },
+    {
+      "skill": "adversarial_skill_4",
+      "candidate_name": "pdf_form_tools",
+      "newly_covered": 5,
+      "min_distance": 3e-06,
+      "queries_fully_covered": 5,
+      "pool_remaining": 56
+    },
+    {
+      "skill": "adversarial_skill_5",
+      "candidate_name": "pdf_tool_assistance",
+      "newly_covered": 5,
+      "min_distance": 0.074413,
+      "queries_fully_covered": 5,
+      "pool_remaining": 55
+    },
+    {
+      "skill": "adversarial_skill_6",
+      "candidate_name": "routing_optimization",
+      "newly_covered": 5,
+      "min_distance": 0.119375,
+      "queries_fully_covered": 7,
+      "pool_remaining": 54
+    },
+    {
+      "skill": "adversarial_skill_7",
+      "candidate_name": "bgp_analysis",
+      "newly_covered": 5,
+      "min_distance": 0.154339,
+      "queries_fully_covered": 7,
+      "pool_remaining": 53
+    },
+    {
+      "skill": "adversarial_skill_8",
+      "candidate_name": "network_packet_analysis",
+      "newly_covered": 5,
+      "min_distance": 0.346964,
+      "queries_fully_covered": 7,
+      "pool_remaining": 52
+    },
+    {
+      "skill": "adversarial_skill_9",
+      "candidate_name": "adaptive_design_analysis",
+      "newly_covered": 5,
+      "min_distance": 0.353302,
+      "queries_fully_covered": 7,
+      "pool_remaining": 51
+    },
+    {
+      "skill": "adversarial_skill_10",
+      "candidate_name": "pdf_form_filling",
+      "newly_covered": 4,
+      "min_distance": 0.134335,
+      "queries_fully_covered": 11,
+      "pool_remaining": 50
+    },
+    {
+      "skill": "adversarial_skill_11",
+      "candidate_name": "citation_verification",
+      "newly_covered": 4,
+      "min_distance": 0.245759,
+      "queries_fully_covered": 11,
+      "pool_remaining": 49
+    },
+    {
+      "skill": "adversarial_skill_12",
+      "candidate_name": "network_analysis",
+      "newly_covered": 4,
+      "min_distance": 0.268053,
+      "queries_fully_covered": 13,
+      "pool_remaining": 48
+    },
+    {
+      "skill": "adversarial_skill_13",
+      "candidate_name": "optimization_analysis",
+      "newly_covered": 3,
+      "min_distance": 0.000233,
+      "queries_fully_covered": 13,
+      "pool_remaining": 47
+    },
+    {
+      "skill": "adversarial_skill_14",
+      "candidate_name": "compliance_assessment",
+      "newly_covered": 3,
+      "min_distance": 0.150884,
+      "queries_fully_covered": 13,
+      "pool_remaining": 46
+    },
+    {
+      "skill": "adversarial_skill_15",
+      "candidate_name": "3d_model_analysis",
+      "newly_covered": 3,
+      "min_distance": 0.190748,
+      "queries_fully_covered": 13,
+      "pool_remaining": 45
+    },
+    {
+      "skill": "adversarial_skill_16",
+      "candidate_name": "citation_validation",
+      "newly_covered": 3,
+      "min_distance": 0.199273,
+      "queries_fully_covered": 13,
+      "pool_remaining": 44
+    },
+    {
+      "skill": "adversarial_skill_17",
+      "candidate_name": "citation_verification",
+      "newly_covered": 3,
+      "min_distance": 0.241649,
+      "queries_fully_covered": 15,
+      "pool_remaining": 43
+    },
+    {
+      "skill": "adversarial_skill_18",
+      "candidate_name": "compliance_assessment",
+      "newly_covered": 3,
+      "min_distance": 0.246988,
+      "queries_fully_covered": 17,
+      "pool_remaining": 42
+    },
+    {
+      "skill": "adversarial_skill_19",
+      "candidate_name": "simulation_support",
+      "newly_covered": 3,
+      "min_distance": 0.2477,
+      "queries_fully_covered": 17,
+      "pool_remaining": 41
+    },
+    {
+      "skill": "adversarial_skill_20",
+      "candidate_name": "data_analysis",
+      "newly_covered": 3,
+      "min_distance": 0.303272,
+      "queries_fully_covered": 17,
+      "pool_remaining": 40
+    },
+    {
+      "skill": "adversarial_skill_21",
+      "candidate_name": "data_analysis",
+      "newly_covered": 3,
+      "min_distance": 0.311956,
+      "queries_fully_covered": 18,
+      "pool_remaining": 39
+    },
+    {
+      "skill": "adversarial_skill_22",
+      "candidate_name": "data_analysis",
+      "newly_covered": 3,
+      "min_distance": 0.339395,
+      "queries_fully_covered": 19,
+      "pool_remaining": 38
+    },
+    {
+      "skill": "adversarial_skill_23",
+      "candidate_name": "library_recommendations",
+      "newly_covered": 2,
+      "min_distance": 0.050923,
+      "queries_fully_covered": 19,
+      "pool_remaining": 37
+    },
+    {
+      "skill": "adversarial_skill_24",
+      "candidate_name": "route_optimization",
+      "newly_covered": 2,
+      "min_distance": 0.098817,
+      "queries_fully_covered": 21,
+      "pool_remaining": 36
+    },
+    {
+      "skill": "adversarial_skill_25",
+      "candidate_name": "data_extraction",
+      "newly_covered": 2,
+      "min_distance": 0.162663,
+      "queries_fully_covered": 21,
+      "pool_remaining": 35
+    },
+    {
+      "skill": "adversarial_skill_26",
+      "candidate_name": "data_analysis",
+      "newly_covered": 2,
+      "min_distance": 0.163178,
+      "queries_fully_covered": 23,
+      "pool_remaining": 34
+    },
+    {
+      "skill": "adversarial_skill_27",
+      "candidate_name": "network_security",
+      "newly_covered": 2,
+      "min_distance": 0.191097,
+      "queries_fully_covered": 24,
+      "pool_remaining": 33
+    },
+    {
+      "skill": "adversarial_skill_28",
+      "candidate_name": "data_analysis",
+      "newly_covered": 2,
+      "min_distance": 0.23404,
+      "queries_fully_covered": 25,
+      "pool_remaining": 32
+    },
+    {
+      "skill": "adversarial_skill_29",
+      "candidate_name": "simulation_and_evaluation",
+      "newly_covered": 2,
+      "min_distance": 0.291428,
+      "queries_fully_covered": 25,
+      "pool_remaining": 31
+    },
+    {
+      "skill": "adversarial_skill_30",
+      "candidate_name": "data_analysis_skills",
+      "newly_covered": 1,
+      "min_distance": 1e-06,
+      "queries_fully_covered": 25,
+      "pool_remaining": 30
+    },
+    {
+      "skill": "adversarial_skill_31",
+      "candidate_name": "3d_processing",
+      "newly_covered": 1,
+      "min_distance": 0.261247,
+      "queries_fully_covered": 25,
+      "pool_remaining": 29
+    },
+    {
+      "skill": "adversarial_skill_32",
+      "candidate_name": "data_analysis",
+      "newly_covered": 1,
+      "min_distance": 0.278201,
+      "queries_fully_covered": 25,
+      "pool_remaining": 28
+    },
+    {
+      "skill": "adversarial_skill_33",
+      "candidate_name": "network_management",
+      "newly_covered": 1,
+      "min_distance": 0.313503,
+      "queries_fully_covered": 26,
+      "pool_remaining": 27
+    },
+    {
+      "skill": "adversarial_skill_34",
+      "candidate_name": "verifying_authenticity",
+      "newly_covered": 1,
+      "min_distance": 0.342628,
+      "queries_fully_covered": 27,
+      "pool_remaining": 26
+    },
+    {
+      "skill": "adversarial_skill_35",
+      "candidate_name": "optimization_tools",
+      "newly_covered": 1,
+      "min_distance": 0.345894,
+      "queries_fully_covered": 27,
+      "pool_remaining": 25
+    },
+    {
+      "skill": "adversarial_skill_36",
+      "candidate_name": "safety_assessment",
+      "newly_covered": 1,
+      "min_distance": 0.373248,
+      "queries_fully_covered": 28,
+      "pool_remaining": 24
+    }
+  ]
+}

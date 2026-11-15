@@ -1,152 +1,362 @@
 [
   {
-    "task_id": "3d-scan-calc",
-    "name": "3D Component Mass Analysis",
-    "description": "Analyzes 3D scan data to identify the largest connected component and calculates its mass, ensuring accurate results for complex geometries."
+    "name": "data_analysis_skills",
+    "description": "Can you suggest an agent that provides guidance on calculating entropy and flow statistics from network logs?",
+    "min_distance_to_queries": 1e-06,
+    "iteration": 6
   },
   {
-    "task_id": "3d-scan-calc",
-    "name": "Debris Filtering and Mass Computation",
-    "description": "Filters out unwanted debris from 3D scans and computes the mass of the remaining part, enhancing the quality of analysis for manufacturing and design."
+    "name": "pdf_form_tools",
+    "description": "Can you help me find a tool to fill out a PDF form for a court case?",
+    "min_distance_to_queries": 3e-06,
+    "iteration": 6
   },
   {
-    "task_id": "3d-scan-calc",
-    "name": "Binary STL Parsing and Mass Calculation",
-    "description": "Utilizes advanced methods to parse binary STL files and accurately calculate the mass of specified connected components, ideal for engineering applications."
+    "name": "optimization_analysis",
+    "description": "I'm interested in finding an agent that can analyze network packet data and flag malicious patterns like port scans or DoS attacks.",
+    "min_distance_to_queries": 0.000233,
+    "iteration": 6
   },
   {
-    "task_id": "ada-bathroom-plan-repair",
-    "name": "ADA Compliance Assessment",
-    "description": "Evaluates bathroom designs for adherence to ADA accessibility standards, identifying potential violations and providing recommendations for compliance."
+    "name": "library_recommendations",
+    "description": "I can recommend a Python library for analyzing Wyckoff positions in CIF files.",
+    "min_distance_to_queries": 0.050923,
+    "iteration": 14
   },
   {
-    "task_id": "ada-bathroom-plan-repair",
-    "name": "Minimal Repair Guidance",
-    "description": "Offers step-by-step instructions for making small repairs or modifications to existing bathroom layouts while ensuring ADA compliance."
+    "name": "pdf_tool_assistance",
+    "description": "I can help you find a tool to fill out a PDF form for a court case.",
+    "min_distance_to_queries": 0.074413,
+    "iteration": 14
   },
   {
-    "task_id": "ada-bathroom-plan-repair",
-    "name": "CAD Detail Extraction",
-    "description": "Extracts architectural details from DXF files, focusing on ADA compliance features and identifying potential accessibility issues in bathroom designs."
+    "name": "route_optimization",
+    "description": "This skill can help you calculate great-circle distances and optimize routes for our bike rebalancing task, as well as solve complex vehicle routing problems in our bike-sharing operations.",
+    "min_distance_to_queries": 0.098817,
+    "iteration": 5
   },
   {
-    "task_id": "adaptive-cruise-control",
-    "name": "Vehicle State Machine Implementation",
-    "description": "Expertise in designing and implementing state machines for vehicle systems, specifically for adaptive cruise control functions, ensuring seamless transitions between different operational states."
+    "name": "optimization_strategies",
+    "description": "I provide strategies for optimizing district placements in Civ 6 to get the highest adjacency bonus.",
+    "min_distance_to_queries": 0.114009,
+    "iteration": 14
   },
   {
-    "task_id": "adaptive-cruise-control",
-    "name": "PID Control Tuning",
-    "description": "Specialized knowledge in tuning PID controllers for optimal performance in speed control applications, including adaptive cruise control systems, to achieve desired response characteristics."
+    "name": "optimization_strategies",
+    "description": "This skill provides strategies for optimizing district placement in Civ 6 and includes tools for calculating adjacency bonuses for districts.",
+    "min_distance_to_queries": 0.114995,
+    "iteration": 2
   },
   {
-    "task_id": "adaptive-cruise-control",
-    "name": "Vehicle Dynamics Simulation",
-    "description": "Proficient in simulating vehicle dynamics and calculating performance metrics such as rise time and overshoot, providing insights for safe following distance management in control systems."
+    "name": "routing_optimization",
+    "description": "Utilize this skill to calculate great-circle distances, optimize routes for bike rebalancing tasks, and assist with SCIP optimization in bike rebalancing operations.",
+    "min_distance_to_queries": 0.119375,
+    "iteration": 7
   },
   {
-    "task_id": "azure-bgp-oscillation-route-leak",
-    "name": "BGP Oscillation Analyzer",
-    "description": "Evaluates and diagnoses BGP oscillation issues in Azure networks, providing detailed insights and recommendations for stabilization."
+    "name": "pdf_form_filling",
+    "description": "A skill that can recommend a solution for filling out a small claims court PDF based on provided information.",
+    "min_distance_to_queries": 0.134335,
+    "iteration": 16
   },
   {
-    "task_id": "azure-bgp-oscillation-route-leak",
-    "name": "BGP Route Leak Detection Tool",
-    "description": "Analyzes BGP route leaks and oscillations specifically within Azure's hub-and-spoke architecture, offering actionable solutions to enhance network reliability."
+    "name": "compliance_assessment",
+    "description": "Use this skill to ensure a bathroom design adheres to ADA accessibility rules and assist in making minimal repairs to a bathroom layout.",
+    "min_distance_to_queries": 0.150884,
+    "iteration": 0
   },
   {
-    "task_id": "azure-bgp-oscillation-route-leak",
-    "name": "Azure Virtual WAN BGP Specialist",
-    "description": "Specializes in detecting and resolving BGP oscillation and route leak issues in Azure Virtual WAN setups, ensuring optimal network performance."
+    "name": "bgp_analysis",
+    "description": "Provides expertise in resolving BGP issues in Azure network topologies and analyzing BGP oscillation and route leaks in an Azure Virtual WAN setup.",
+    "min_distance_to_queries": 0.154339,
+    "iteration": 18
   },
   {
-    "task_id": "bike-rebalance",
-    "name": "SCIP Optimization for Rebalancing",
-    "description": "Utilize SCIP (Solving Constraint Integer Programs) to efficiently optimize bike rebalancing operations, focusing on minimizing costs and improving resource allocation."
+    "name": "city_planning",
+    "description": "This skill assists with optimizing your city's district layout in Civ 6 and can suggest methods or tools to optimize city district placements for Civ 6 to get the highest adjacency bonus.",
+    "min_distance_to_queries": 0.158887,
+    "iteration": 8
   },
   {
-    "task_id": "bike-rebalance",
-    "name": "Complex Vehicle Routing Solver",
-    "description": "A specialized skill for addressing complex vehicle routing problems, enabling effective planning and execution in bike-sharing operations to ensure optimal service."
+    "name": "data_extraction",
+    "description": "Offers tools that help extract and analyze ADA-related violations from a CAD bathroom plan and generate a filled-out court form from a case description.",
+    "min_distance_to_queries": 0.162663,
+    "iteration": 18
   },
   {
-    "task_id": "bike-rebalance",
-    "name": "Great-Circle Distance Calculator",
-    "description": "Calculate great-circle distances for accurate route planning and optimization in bike rebalancing, ensuring the shortest and most efficient travel paths."
+    "name": "data_analysis",
+    "description": "This skill assists with extracting architectural details from a DXF file for an ADA-compliant bathroom and can also help in identifying fake citations in my bibliography.",
+    "min_distance_to_queries": 0.163178,
+    "iteration": 12
   },
   {
-    "task_id": "citation-check",
-    "name": "BibTeX Citation Validator",
-    "description": "Assists users in verifying the integrity and authenticity of citations in BibTeX files by cross-referencing them with reliable academic databases."
+    "name": "routing_optimization",
+    "description": "This skill is essential for ensuring our vehicles follow proper routing rules during bike rebalancing and solving complex vehicle routing problems in our bike-sharing operations.",
+    "min_distance_to_queries": 0.1682,
+    "iteration": 8
   },
   {
-    "task_id": "citation-check",
-    "name": "Citation Authenticity Checker",
-    "description": "Provides tools to identify and verify the authenticity of citations, helping users to detect potential inaccuracies or fake entries in their bibliographies."
+    "name": "optimization_tools",
+    "description": "A skill that offers methods for 'optimizing city district placements for Civ 6' and 'calculating adjacency bonuses for different district placements'.",
+    "min_distance_to_queries": 0.172965,
+    "iteration": 11
   },
   {
-    "task_id": "citation-check",
-    "name": "Bibliography Integrity Assessor",
-    "description": "Analyzes BibTeX entries for accuracy and completeness, checking for hallucinated citations and ensuring all referenced works are genuine and properly formatted."
+    "name": "optimization_tools",
+    "description": "Includes methods or tools to optimize city district placements for Civ 6 for the highest adjacency bonus and solve complex vehicle routing problems in bike-sharing operations.",
+    "min_distance_to_queries": 0.184968,
+    "iteration": 18
   },
   {
-    "task_id": "civ6-adjacency-optimizer",
-    "name": "District Placement Optimizer",
-    "description": "Analyzes city layouts and suggests optimal district placements to maximize adjacency bonuses in Civilization VI."
+    "name": "optimization_tools",
+    "description": "This skill can recommend a method or tool to optimize city district placements for Civ 6 to get the highest adjacency bonus and assist with optimizing bike rebalancing routes while minimizing travel distances.",
+    "min_distance_to_queries": 0.18758,
+    "iteration": 12
   },
   {
-    "task_id": "civ6-adjacency-optimizer",
-    "name": "Adjacency Bonus Calculator",
-    "description": "Provides calculations for potential adjacency bonuses based on district placements, allowing players to evaluate different configurations."
+    "name": "3d_model_analysis",
+    "description": "This skill helps in analyzing STL files to determine the mass of a 3D object and accurately compute the mass of a 3D printed component from an STL file.",
+    "min_distance_to_queries": 0.190748,
+    "iteration": 7
   },
   {
-    "task_id": "civ6-adjacency-optimizer",
-    "name": "Civ 6 Strategy Advisor",
-    "description": "Offers strategic advice and best practices for district placement to enhance city development and optimize adjacency in Civilization VI."
+    "name": "network_security",
+    "description": "This skill supports 'calculating unique flows and their characteristics in network packet captures' and can 'analyze network packet data and flag malicious patterns'.",
+    "min_distance_to_queries": 0.191097,
+    "iteration": 4
   },
   {
-    "task_id": "court-form-filling",
-    "name": "PDF Form Filler",
-    "description": "A tool that allows users to easily fill out PDF forms for legal documents, including court forms, by entering information into designated fields."
+    "name": "citation_validation",
+    "description": "This skill is useful for validating BibTeX entries against academic databases and checking for hallucinated citations in BibTeX.",
+    "min_distance_to_queries": 0.199273,
+    "iteration": 5
   },
   {
-    "task_id": "court-form-filling",
-    "name": "Court Form Generator",
-    "description": "An agent that can create filled-out court forms based on user-provided case descriptions and essential details, ensuring compliance with legal standards."
+    "name": "route_optimization",
+    "description": "This skill assists in calculating great-circle distances, optimizing routes for bike rebalancing tasks, and optimizing city district placements in Civ 6 to achieve the highest adjacency bonus.",
+    "min_distance_to_queries": 0.221217,
+    "iteration": 13
   },
   {
-    "task_id": "court-form-filling",
-    "name": "Legal Document Populator",
-    "description": "A solution for automatically populating PDF legal documents with specific case details, streamlining the process for small claims and other court-related forms."
+    "name": "pdf_management",
+    "description": "Utilize this skill for \"filling out a small claims court PDF based on provided information\" and for \"filling out legal documents in PDF format\".",
+    "min_distance_to_queries": 0.232384,
+    "iteration": 15
   },
   {
-    "task_id": "crystallographic-wyckoff-position-analysis",
-    "name": "CIF Structure Analyzer",
-    "description": "Analyze crystal structures from CIF files, including visualization, symmetry analysis, and extraction of structural parameters."
+    "name": "data_analysis",
+    "description": "A skill that provides tools for 'analyzing network packet data' and 'extracting metrics like protocol counts and packet sizes'.",
+    "min_distance_to_queries": 0.23404,
+    "iteration": 11
   },
   {
-    "task_id": "crystallographic-wyckoff-position-analysis",
-    "name": "Wyckoff Position Identifier",
-    "description": "Provide access to Python libraries specifically designed for analyzing Wyckoff positions in CIF files, facilitating detailed crystallographic studies."
+    "name": "optimization_tools",
+    "description": "This skill encompasses tools that can be used to optimize city district placements for Civ 6 to get the highest adjacency bonus and ensure our vehicles follow proper routing rules during bike rebalancing.",
+    "min_distance_to_queries": 0.237946,
+    "iteration": 10
   },
   {
-    "task_id": "crystallographic-wyckoff-position-analysis",
-    "name": "Symmetry Analysis Toolkit",
-    "description": "Offer resources and tools for performing symmetry analysis on crystal structures, including tools to compute and visualize symmetry elements."
+    "name": "citation_verification",
+    "description": "This skill helps you verify the authenticity of citations in your BibTeX file, ensuring accurate referencing.",
+    "min_distance_to_queries": 0.241649,
+    "iteration": 2
   },
   {
-    "task_id": "dapt-intrusion-detection",
-    "name": "Malicious Pattern Detection",
-    "description": "Analyzes network packet data to identify and flag malicious activities such as port scans and DoS attacks."
+    "name": "citation_verification",
+    "description": "A skill that can assist in identifying fake citations in my bibliography and verifying the integrity of my citations in a BibTeX file.",
+    "min_distance_to_queries": 0.245759,
+    "iteration": 16
   },
   {
-    "task_id": "dapt-intrusion-detection",
-    "name": "Flow Analysis Support",
-    "description": "Provides tools for calculating unique flows and their characteristics within network packet captures."
+    "name": "compliance_assessment",
+    "description": "This skill ensures compliance by making minimal repairs to a bathroom layout while ensuring ADA compliance and checking for hallucinated citations in BibTeX.",
+    "min_distance_to_queries": 0.246988,
+    "iteration": 1
   },
   {
-    "task_id": "dapt-intrusion-detection",
-    "name": "PCAP Metrics Extractor",
-    "description": "Assists in analyzing PCAP files to extract key metrics, including protocol counts and packet sizes."
+    "name": "simulation_support",
+    "description": "This skill offers support for simulations, including 'implementing vehicle state machines in an adaptive cruise control system', 'simulating vehicle dynamics', and 'managing safe following distances in a control system'.",
+    "min_distance_to_queries": 0.2477,
+    "iteration": 9
+  },
+  {
+    "name": "3d_processing",
+    "description": "This skill helps filter out debris from a 3D scan, compute the part's mass, and extract architectural details from a DXF file.",
+    "min_distance_to_queries": 0.261247,
+    "iteration": 0
+  },
+  {
+    "name": "network_analysis",
+    "description": "This skill helps in detecting oscillation and route leaks in your Azure Virtual WAN network and evaluating BGP oscillation issues in Azure networks.",
+    "min_distance_to_queries": 0.268053,
+    "iteration": 8
+  },
+  {
+    "name": "optimizing_layouts",
+    "description": "This capability focuses on 'optimizing city district placements' and can help with 'optimizing my city's district layout' in games like Civ 6 or real-world applications.",
+    "min_distance_to_queries": 0.273798,
+    "iteration": 3
+  },
+  {
+    "name": "data_analysis",
+    "description": "A skill that can suggest a skill for calculating performance metrics like rise time and overshoot in a vehicle control simulation, as well as analyze network packet data and flag malicious patterns like port scans or DoS attacks.",
+    "min_distance_to_queries": 0.278201,
+    "iteration": 16
+  },
+  {
+    "name": "data_analysis",
+    "description": "This skill assists with tasks such as extracting and analyzing ADA-related violations from a CAD bathroom plan and analyzing network packet data and flagging malicious patterns like port scans or DoS attacks.",
+    "min_distance_to_queries": 0.285924,
+    "iteration": 1
+  },
+  {
+    "name": "simulation_and_evaluation",
+    "description": "This skill is useful for simulating vehicle dynamics and managing safe following distances in a control system, as well as evaluating the density and connectivity of IPs in a packet capture.",
+    "min_distance_to_queries": 0.291428,
+    "iteration": 12
+  },
+  {
+    "name": "data_analysis",
+    "description": "This skill provides methods for 'analyzing STL files' and 'analyzing crystal structures from CIF files' to determine properties like mass and integrity.",
+    "min_distance_to_queries": 0.303272,
+    "iteration": 4
+  },
+  {
+    "name": "data_analysis",
+    "description": "This skill provides support for analyzing various types of data, such as extracting architectural details from a DXF file and calculating the mass of a 3D printed component from an STL file.",
+    "min_distance_to_queries": 0.311956,
+    "iteration": 10
+  },
+  {
+    "name": "network_management",
+    "description": "This skill is relevant for detecting oscillation and route leaks in an Azure Virtual WAN network and calculating unique flows and their characteristics in network packet captures.",
+    "min_distance_to_queries": 0.313503,
+    "iteration": 10
+  },
+  {
+    "name": "analyzing_networks",
+    "description": "This skill specializes in 'analyzing BGP route leaks and oscillations' and can assist in 'detecting oscillation and route leaks' in various network topologies.",
+    "min_distance_to_queries": 0.318265,
+    "iteration": 3
+  },
+  {
+    "name": "file_processing",
+    "description": "This skill helps with 'extracting architectural details from a DXF file' and 'populating a PDF form with legal case details'.",
+    "min_distance_to_queries": 0.321935,
+    "iteration": 17
+  },
+  {
+    "name": "data_analysis_tools",
+    "description": "This skill provides methods for analyzing STL files to determine the mass of a 3D object and tools for analyzing BGP route leaks and oscillations in Azure's hub-and-spoke architecture.",
+    "min_distance_to_queries": 0.330256,
+    "iteration": 5
+  },
+  {
+    "name": "analytical_tools",
+    "description": "This skill offers analytical tools for various applications, including filtering out debris from a 3D scan and understanding BGP oscillation in Azure Virtual WAN.",
+    "min_distance_to_queries": 0.332754,
+    "iteration": 2
+  },
+  {
+    "name": "data_analysis",
+    "description": "This skill assists with analyzing crystal structures from CIF files and evaluating BGP oscillation issues in Azure networks.",
+    "min_distance_to_queries": 0.339395,
+    "iteration": 0
+  },
+  {
+    "name": "verifying_authenticity",
+    "description": "This skill is designed for 'verifying the authenticity of citations' in documents such as a BibTeX file and can also assist in ensuring compliance with standards like 'ADA accessibility rules'.",
+    "min_distance_to_queries": 0.342628,
+    "iteration": 3
+  },
+  {
+    "name": "optimization_tools",
+    "description": "This skill is essential for \"SCIP optimization in our bike rebalancing operations\" and for \"optimizing city district placements for Civ 6 to get the highest adjacency bonus\".",
+    "min_distance_to_queries": 0.345894,
+    "iteration": 15
+  },
+  {
+    "name": "network_packet_analysis",
+    "description": "This skill helps analyze network packet data, flagging malicious patterns like port scans or DoS attacks, calculating unique flows and their characteristics in network packet captures, and resolving BGP issues in Azure network topologies.",
+    "min_distance_to_queries": 0.346964,
+    "iteration": 13
+  },
+  {
+    "name": "adaptive_design_analysis",
+    "description": "This skill provides guidance on ensuring a design adheres to ADA accessibility rules, implements PID controllers for adaptive cruise control systems, and analyzes CAD bathroom plans for ADA-related violations.",
+    "min_distance_to_queries": 0.353302,
+    "iteration": 13
+  },
+  {
+    "name": "network_analysis",
+    "description": "This skill provides assistance with queries related to network issues, such as evaluating 'BGP oscillation issues in Azure networks', analyzing 'PCAP files', and 'calculating entropy and flow statistics from network logs'.",
+    "min_distance_to_queries": 0.362844,
+    "iteration": 9
+  },
+  {
+    "name": "data_analysis",
+    "description": "This skill provides assistance with analyzing various types of data, including 'network packet data' to flag 'malicious patterns' and 'calculating performance metrics' for simulations.",
+    "min_distance_to_queries": 0.363682,
+    "iteration": 19
+  },
+  {
+    "name": "file_parsing",
+    "description": "This skill assists with 'parsing a binary STL', 'verifying the integrity of citations in a BibTeX file', and 'extracting and analyzing ADA-related violations from a CAD bathroom plan'.",
+    "min_distance_to_queries": 0.37195,
+    "iteration": 4
+  },
+  {
+    "name": "safety_assessment",
+    "description": "This skill is useful for 'managing safe following distances in a control system' and ensuring 'bathroom design adheres to ADA accessibility rules'.",
+    "min_distance_to_queries": 0.373248,
+    "iteration": 17
+  },
+  {
+    "name": "form_population",
+    "description": "A skill that assists with 'populating a PDF form with legal case details' and 'checking for hallucinated citations in BibTeX'.",
+    "min_distance_to_queries": 0.394091,
+    "iteration": 11
+  },
+  {
+    "name": "data_analysis",
+    "description": "This skill helps in tasks such as \"analyzing BGP oscillation and route leaks in an Azure Virtual WAN setup\" and provides methods to \"filter out debris from a 3D scan and compute the part's mass\".",
+    "min_distance_to_queries": 0.39936,
+    "iteration": 15
+  },
+  {
+    "name": "data_analysis",
+    "description": "This skill assists in 'analyzing network packet data and flag malicious patterns' as well as 'analyzing Wyckoff positions in CIF files'.",
+    "min_distance_to_queries": 0.412721,
+    "iteration": 17
+  },
+  {
+    "name": "file_parsing",
+    "description": "This skill helps with parsing various file formats, like parsing a binary STL, working with Wyckoff positions in Python, and filling out legal documents in PDF format.",
+    "min_distance_to_queries": 0.418328,
+    "iteration": 1
+  },
+  {
+    "name": "optimization_tools",
+    "description": "Utilize this skill for 'optimizing' layouts, routes, and operations such as 'PID tuning' and 'SCIP optimization' in different contexts.",
+    "min_distance_to_queries": 0.44712,
+    "iteration": 19
+  },
+  {
+    "name": "data_verification_tools",
+    "description": "This skill provides tools to verify the authenticity of citations in a BibTeX file and helps in detecting oscillation and route leaks in an Azure Virtual WAN network.",
+    "min_distance_to_queries": 0.449602,
+    "iteration": 7
+  },
+  {
+    "name": "data_analysis_tools",
+    "description": "This skill helps with finding tools for various data-related tasks, including 'filling out a PDF form for a court case', 'calculating adjacency bonuses for different district placements in Civ 6', and 'analyzing BGP route leaks and oscillations'.",
+    "min_distance_to_queries": 0.495136,
+    "iteration": 9
+  },
+  {
+    "name": "form_processing",
+    "description": "This skill helps with 'filling out PDF forms' and can assist in 'filtering out debris' from scans, making it versatile for various processing tasks.",
+    "min_distance_to_queries": 0.518255,
+    "iteration": 19
   }
 ]

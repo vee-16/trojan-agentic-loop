@@ -6,44 +6,44 @@
     {
       "skill_count": 1,
       "selected": 1,
-      "training_hijacked": 5,
-      "test_hijacked": 5,
-      "test_rhr_at_1": 0.1
+      "training_hijacked": 8,
+      "test_hijacked": 6,
+      "test_rhr_at_1": 0.12
     },
     {
       "skill_count": 3,
       "selected": 3,
-      "training_hijacked": 15,
-      "test_hijacked": 12,
-      "test_rhr_at_1": 0.24
+      "training_hijacked": 18,
+      "test_hijacked": 15,
+      "test_rhr_at_1": 0.3
     },
     {
       "skill_count": 5,
       "selected": 5,
-      "training_hijacked": 24,
-      "test_hijacked": 19,
-      "test_rhr_at_1": 0.38
+      "training_hijacked": 28,
+      "test_hijacked": 25,
+      "test_rhr_at_1": 0.5
     },
     {
       "skill_count": 10,
       "selected": 10,
-      "training_hijacked": 39,
-      "test_hijacked": 28,
-      "test_rhr_at_1": 0.56
+      "training_hijacked": 40,
+      "test_hijacked": 36,
+      "test_rhr_at_1": 0.72
     },
     {
       "skill_count": 15,
-      "selected": 15,
-      "training_hijacked": 44,
-      "test_hijacked": 28,
-      "test_rhr_at_1": 0.56
+      "selected": 13,
+      "training_hijacked": 43,
+      "test_hijacked": 37,
+      "test_rhr_at_1": 0.74
     },
     {
       "skill_count": 30,
-      "selected": 19,
-      "training_hijacked": 48,
-      "test_hijacked": 32,
-      "test_rhr_at_1": 0.64
+      "selected": 13,
+      "training_hijacked": 43,
+      "test_hijacked": 37,
+      "test_rhr_at_1": 0.74
     }
   ]
 }
